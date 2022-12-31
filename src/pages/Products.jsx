@@ -2,6 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Products() {
+  // const history = useHistory();
+  // const navigate = useNavigate();
+
+  // useEffect(() => {
+  // history.push('/welcome');
+  //  an alternative to useHistory is now useNavigate:
+  //   navigate('/welcome', { replace: true });
+  // }, []);
+
   return (
     <section>
       <h1>The Products Page</h1>
